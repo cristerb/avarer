@@ -1,0 +1,40 @@
+
+.promo-container {
+  display: flex;
+  justify-content: center;;
+  flex-wrap: wrap;
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+
+    a h2{
+      font-size: 1.6em;
+      color: white;
+    }
+
+    .promo-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 380px;
+      height: 200px;
+      margin: 0.3em;
+    }
+
+    .promo-hoytallere {
+      background-image: url(/assets/img/top-banner-home-1.jpg);
+    }
+
+
+    .promo-stereo {
+      background-image: url(/assets/img/top-banner-home-2.jpg);
+    }
+
+    .promo-hjemmekino {
+      background-image: url(/assets/img/top-banner-home-3.jpg);
+    }
+
+
+}

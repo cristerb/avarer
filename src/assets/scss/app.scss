@@ -42,3 +42,9 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import 'global';
+@import 'components/header';
+@import 'components/main-hero';
+@import 'components/promo';
+@import 'components/footer';
